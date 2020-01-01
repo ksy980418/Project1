@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication11"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:4:5-71
+11-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:4:22-69
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:6:5-69
+13-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:6:22-66
+14
+15    <application
+15-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:7:5-25:19
+16        android:allowBackup="true"
+16-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:8:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\q\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:hardwareAccelerated="false"
+19-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:14:9-44
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:9:9-43
+21        android:label="Project 1"
+21-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:10:9-34
+22        android:largeHeap="true"
+22-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:15:9-33
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity android:name="com.example.myapplication11.MainActivity" >
+27-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:17:19-47
+28            <intent-filter>
+28-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.myapplication11.make_full" />
+34-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:24:9-56
+34-->C:\Users\q\Desktop\My Application11\MyApplication11\app\src\main\AndroidManifest.xml:24:19-44
+35    </application>
+36
+37</manifest>

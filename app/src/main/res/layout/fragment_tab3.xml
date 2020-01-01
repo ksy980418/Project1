@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+
+        <ImageView
+            android:id="@+id/rouletteImage"
+            android:layout_width="331dp"
+            android:layout_height="343dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/roulette_8" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="101dp"
+            android:layout_height="96dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/start"></Button>
+
+
+        <ImageView
+            android:id="@+id/imageSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_above="@+id/rouletteImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-30dp"
+            android:src="@drawable/selected"></ImageView>
+
+
+        <Button
+            android:id="@+id/buttonUp"
+            android:layout_width="100dp"
+            android:layout_height="93dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/buttonStart"
+            android:background="@drawable/up"></Button>
+
+
+        <Button
+            android:id="@+id/buttonDown"
+            android:layout_width="98dp"
+            android:layout_height="93dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/buttonStart"
+            android:background="@drawable/down"
+
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
